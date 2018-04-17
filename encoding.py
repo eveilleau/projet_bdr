@@ -1,5 +1,7 @@
 i=0
 new=[]
+
+#Salut les amis !!
 with open("catalogue.sql",encoding = "utf-8") as f:
 	f=f.readlines()
 	for line in f:
